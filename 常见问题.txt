@@ -1,0 +1,1 @@
+1. sourcetree 提交修改失败， 确认github密码是否正确， 2 点击sourcetree右上方设置在Url中加入用户名+@  参考https://www.jianshu.com/p/96ee862930fb
