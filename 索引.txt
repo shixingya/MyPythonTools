@@ -1,0 +1,2 @@
+python2可运行
+1. getFilePathsByDir.py : 根据文件根目录，递归子目录下所有文件，将所有文件路径 保存到xxx.txt文件中
