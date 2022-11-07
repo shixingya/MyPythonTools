@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-ÊäÈë¸ùÄ¿Â¼Â·¾¶£¬µİ¹é½«Ä¿Â¼ÏÂ¼°×ÓÄ¿Â¼ÏÂÎÄ¼ş±£´æµ½ÎÄ¼şÖĞ
+è¾“å…¥æ ¹ç›®å½•è·¯å¾„ï¼Œé€’å½’å°†ç›®å½•ä¸‹åŠå­ç›®å½•ä¸‹æ–‡ä»¶ä¿å­˜åˆ°æ–‡ä»¶ä¸­
 '''
 import os 
 import sys
@@ -16,13 +16,13 @@ def traverse(fpth):
 			wdj.write("\n") 
 			print(tmp_path)
         else:
-            '''print('ÎÄ¼ş¼Ğ£º%s'%tmp_path)'''
+            '''print('æ–‡ä»¶å¤¹ï¼š%s'%tmp_path)'''
             traverse(tmp_path)
             
 
  
-path = raw_input("ÊäÈë±éÀú¸ùÄ¿Â¼£¨eg:D:/2014Files£©: ");
-print "ÊäÈë±éÀú¸ùÄ¿Â¼Îª : ", path
-fileName = raw_input("ÊäÈëÎÄ¼şÂ·¾¶´æ´¢Â·¾¶£¨eg:D:/2014.txt£©: ");
-print "ÊäÈëÎÄ¼şÂ·¾¶´æ´¢Â·¾¶Îª : ", fileName
+path = raw_input("è¾“å…¥éå†æ ¹ç›®å½•ï¼ˆeg:D:/2014Filesï¼‰: ");
+print "è¾“å…¥éå†æ ¹ç›®å½•ä¸º : ", path
+fileName = raw_input("è¾“å…¥æ–‡ä»¶è·¯å¾„å­˜å‚¨è·¯å¾„ï¼ˆeg:D:/2014.txtï¼‰: ");
+print "è¾“å…¥æ–‡ä»¶è·¯å¾„å­˜å‚¨è·¯å¾„ä¸º : ", fileName
 traverse(path) 
