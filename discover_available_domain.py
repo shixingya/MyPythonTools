@@ -1,8 +1,15 @@
 #!/usr/bin/evn python
 # coding:utf-8
 
-#discover_available_domain.py 用来发现未注册的域名
-
+# discover_available_domain.py 用来发现未注册的域名
+# 主要用到的接口 http://panda.www.net.cn/cgi-bin/check.cgi?area_domain= XXX.com
+# 关注返回值参数
+# 
+# original=210 : Domain name is available 表示域名可以注册
+# original=211 : Domain name is not available 表示域名已经注册
+# original=212 : Domain name is invalid 表示查询的域名无效
+# original=213 : Time out 查询超时
+                
 import xylog
 from xylog import Logger
 import exrex
