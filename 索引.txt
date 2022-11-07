@@ -1,3 +1,5 @@
 python2可运行
 1. getFilePathsByDir.py : 根据文件根目录，递归子目录下所有文件，将所有文件路径 保存到xxx.txt文件中
 2.utf8_converter.py ： 将文件格式转码为utf8-bom格式
+3. xylog ：日志模块
+4. discover_available_domain.py： 用来发现未注册的域名
